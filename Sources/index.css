@@ -111,8 +111,8 @@ a:visited {
    
 }
 a:hover {
-    font-size: 60px;
+    font-size: 40px;
     opacity: .2;
-    letter-spacing: 30px;
+    letter-spacing: 25px;
 }
 a:active {}
