@@ -34,22 +34,43 @@ main {
     
 }
 
-.post {
-opacity: .7;
-transition: 1.5s ease-in-out;
-background-blend-mode: darken;
-display: block;
-width: auto;
-height: 400px;
-background: #271d29;
-margin-left: 5px; 
-margin-right: 5px;
-margin-top: 20px;
-}
 
-.post:hover{
-    opacity: 1;
-    background-blend-mode: normal;
+
+.p1, .p2, .p3, .p4, .p5{
+            
+            position: relative;
+            opacity: 0.60;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .p2 {
+            background-image: url(project/1st.jpg);
+            min-height: 100%;
+        }
+
+        .p3 {
+            background-image: url(project/2nd.png);
+            min-height: 100%;
+        }
+        
+        .p4 {
+            background-image: url(project/3rd.jpg);
+            min-height: 100%;
+        }
+        
+        .caption {
+            letter-spacing: 5px;
+            font-family: helvetica;
+            color: whitesmoke;
+            font-size: 25px;
+            position: absolute;
+            left: 0;
+            top: 25%;
+            width: 100%;
+            text-align: center;
 }
 
 
