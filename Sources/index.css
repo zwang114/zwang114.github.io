@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     width: 50%;
-    height: 1000px;
+    height: 100%;
     float: left;
     clear: left;
 }
@@ -35,15 +35,16 @@ line-height: 400px;
 float: left;
 display: block;
 width: 400px;
-height: 1000px;
+height: auto;
 overflow-x: hidden;
 overflow-y: auto;
-background: #442C48;
+background-color: #442C48;
 white-space: nowrap;}
 
 .post {
-opacity: .3;
-transition: 1.5s ease-in-out;
+
+opacity: .1;
+transition: .5s ease-in-out;
 background-blend-mode: saturation;
 display: block;
 width: auto;
@@ -57,23 +58,28 @@ margin-top: 20px;
 .post:hover{
     opacity: 1;
     background-blend-mode: normal;
+    font-size: 20px;
 }
 
 #words1 {
-    padding-top: 5%;
     margin: auto;
-    align-content: center;
     width: auto;
-    height: 90%;
+    height: 95%;
+    background: url("index/words1.svg") no-repeat center;
+    transition: .3s;
+}
+
+#words1:hover {
+    background: url("index/hell.svg") no-repeat center;
 }
 
 #words2 {
-    padding-left: 10%;
-    padding-top: 50%;
-    margin: auto;
-    align-content: center;
-    width: 80%;
-    height: auto;
+    margin-top: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 30%;
+    background: url("index/words2.svg") no-repeat center;
 }
 
 img {
@@ -85,23 +91,23 @@ img {
 
 
 footer {
+    align-content: center;
+    padding: auto;
     box-sizing: border-box;
     background-image: url(index/octopus.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 30%;
-    height: 1000px;
+    height: auto;
     float: left;
-    
-    padding-right: 10px;
     clear: left;
 }
 a {
     font-family: helvetica;
     letter-spacing: 15px;
     color: white;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 a:link {
     text-decoration: none;
@@ -111,8 +117,6 @@ a:visited {
    
 }
 a:hover {
-    font-size: 40px;
-    opacity: .2;
-    letter-spacing: 25px;
+
 }
 a:active {}

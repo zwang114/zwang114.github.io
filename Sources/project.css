@@ -26,19 +26,18 @@ nav {
 
 main {
     overflow-y: scroll;
-
     color: white;
-    background-color: rgba(198, 53, 43, 0.81);
-    margin: 250px auto;
-    width: 50%;
-    height: 50%;
+    background-blend-mode: color-dodge;
+    margin: 60px auto;
+    width: 70%;
+    height: 70%;
     
 }
 
 .post {
-opacity: .3;
+opacity: .7;
 transition: 1.5s ease-in-out;
-background-blend-mode: saturation;
+background-blend-mode: darken;
 display: block;
 width: auto;
 height: 400px;
@@ -53,10 +52,6 @@ margin-top: 20px;
     background-blend-mode: normal;
 }
 
-ul {
-    margin-left: 5%;
-    list-style-type: none;
-}
 
 #spec {
     
@@ -68,14 +63,20 @@ ul {
     list-style-type: none;
 }
 
+ul {
+    margin-left: 30%;
+    list-style-type: none;
+}
+
 li {
+
     float: left;
     margin-left: 10px;
 }
 
 li a {
     display: block;
-    padding: 8px;
+    padding-left: 50px;
     color: white;
 }
 
@@ -93,9 +94,9 @@ a:visited {
    
 }
 a:hover {
-    font-size: 40px;
+    font-size: 20px;
     opacity: .2;
-    letter-spacing: 30px;
+    letter-spacing: 10px;
 }
 a:active {}
 
