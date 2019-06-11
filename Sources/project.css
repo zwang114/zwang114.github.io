@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #962820;
+
+} 
+#wrapper {
+    background-image: url(contact/contactBG.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1000px;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    z-index: 2;
+}
+
+main {
+    overflow-y: scroll;
+    color: white;
+    background-blend-mode: color-dodge;
+    margin: 60px auto;
+    width: 70%;
+    height: 70%;
+    
+}
+
+
+
+.p1, .p2, .p3, .p4, .p5{
+            
+            position: relative;
+            opacity: 0.60;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .p2 {
+            background-image: url(project/1st.jpg);
+            min-height: 100%;
+        }
+
+        .p3 {
+            background-image: url(project/2nd.png);
+            min-height: 100%;
+        }
+        
+        .p4 {
+            background-image: url(project/3rd.jpg);
+            min-height: 100%;
+        }
+        
+        .caption {
+            letter-spacing: 5px;
+            font-family: helvetica;
+            color: whitesmoke;
+            font-size: 25px;
+            position: absolute;
+            left: 0;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+}
+
+
+#spec {
+    
+    padding: auto;
+    text-align: center;
+    line-height: 50px;
+    display: inline;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 30%;
+    list-style-type: none;
+}
+
+li {
+
+    float: left;
+    margin-left: 10px;
+}
+
+li a {
+    display: block;
+    padding-left: 50px;
+    color: white;
+}
+
+a {
+    font-family: helvetica;
+    letter-spacing: 10px;
+    color: white;
+    transition: 1s ease-in-out;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+   
+}
+a:hover {
+    font-size: 20px;
+    opacity: .2;
+    letter-spacing: 10px;
+}
+a:active {}
+
+
+
+
+#spec {
+    font-size: 12px;
+    font-family: helvetica;
+    letter-spacing: 3px;
+    color: white;
+    transition: 1s ease-in-out;
+}
+#spec:link {
+    text-decoration: none;
+}
+#spec:visited {
+    text-decoration: none;
+   
+}
+#spec:hover {
+    font-size: 12px;
+    opacity: .5;
+    letter-spacing: 5px;
+}
+#spec:active {}
+
